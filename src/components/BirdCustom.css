@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+.body {
+    position: absolute;
+    margin: 0px;
+    overflow: hidden;
+    top: 0px;
+    bottom: 0px;
+    width: 100%;  
+}
+
+.halfback {
+    background:linear-gradient(180deg, #274D5A 35%, #FFFFFF 35%);
+    min-height: 100vh;
+    font-family: Abel;
+}
+
+.nextbutton {
+    width: 75px;
+    height: 90px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    border: none;
+    display: block;
+    background-color: #FCD3AE;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-family: Abel;
+    left: 84.5%;
+    top: 80%;
+    position: absolute;
+}
+
+.nextbutton:hover {
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}
+ 
+.nextbutton:active {
+    transform: translateY(2px);
+    cursor: grabbing;
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+.welcomebody {
+    width: 100%;
+    height: 2880px;
+    background: linear-gradient(180deg, #97D4D7 0%, #AEDDDE 19.27%, #F0F9FA 60.94%, #FFFFE0 82.29%, #FCD3AE 100%);
+    font-family: Abel;
+}
+
+.header {
+    padding: 42px 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    line-height: 20px;
+    z-index: 1000000
+  }
+
+.footer {
+    background-color: #274D5A;
+    position: fixed;
+    font-size: 14px;
+    font-family: Abel;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    z-index: 1000000;
+  }
+
+/* Split the screen in half */
+.split {
+    height: 675px;
+    width: 50%;
+    z-index: 1;
+    position: absolute;
+    overflow-x: hidden;
+    padding-top: 300px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.boxbutton {
+    background-color: #274D5A;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #274D5A; 
+    color: white; 
+    border: 2px solid #274D5A;
+    border-radius: 4px;
+    padding: 5px 18px;
+    font-family: Abel;
+    width: 150px;
+    font-size: 16px;
+    position: fixed;
+    right: 200px;
+    top: 24px;
+  }
+  
+  .button1:hover {
+    background-color: #407c91;
+    border: 2px solid #407c91;
+    color: white;
+    cursor: pointer;
+  }
+
+  .button1:active {
+    cursor: grabbing;
+  }
+
+  .button2 {
+    background-color: #274D5A; 
+    color: white; 
+    border: 2px solid #274D5A;
+    border-radius: 4px;
+    padding: 5px 18px;
+    font-family: Abel;
+    width: 150px;
+    font-size: 16px;
+    position: fixed;
+    right: 20px;
+    top: 24px;
+  }
+  
+  .button2:hover {
+    background-color: #407c91;
+    color: white;
+    border: 2px solid #407c91;
+    cursor: pointer;
+  }
+
+  .button2:active {
+    cursor: grabbing;
+  }
+
+#block1 {
+  height: 720px;
+}
+
+#block2 {
+  height: 720px;
+}
+
+#block3 {
+  height: 720px;
+}
+
+#block4 {
+  height: 720px;
+}
