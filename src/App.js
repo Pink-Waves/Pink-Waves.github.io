@@ -22,26 +22,17 @@ function App() {
   return (
     <Router>
     <div className="App">
-     <Route  path='/' exact render={
+     <Route  path={process.env.PUBLIC_URL + '/'} exact render={
         () => {
-          return (
-            <div>
-          <Welcome />
-          <a href ='/register'>
-          <button>Sign Up</button>
-          </a>
-          <a href ='login'>
-          <button>Login</button>
-          </a>
-          </div>)
+          return (<Welcome />)
         }
       } />
-      <Route  path = '/register' exact strict render={
+      <Route  path = {process.env.PUBLIC_URL + '/register'} exact strict render={
         () => {
           return (<Registration />)
         }
       } />
-      <Route  path='/login' exact strict render={
+      <Route  path= {process.env.PUBLIC_URL + '/login'} exact strict render={
         () => {
           return (<Login/>)
         }
