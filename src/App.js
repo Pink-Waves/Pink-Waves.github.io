@@ -20,7 +20,7 @@ import ChangePassword from './mainComponents/ChangePassword';
 function App() {
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
      <Route  path={process.env.PUBLIC_URL + '/'} exact render={
         () => {
