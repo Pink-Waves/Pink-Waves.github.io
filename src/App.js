@@ -22,7 +22,7 @@ function App() {
   return (
     <Router>
     <div className="App">
-     <Route path="/" exact render={
+     <Route  basename={process.env.PUBLIC_URL} path="/" exact render={
         () => {
           return (
             <div>
@@ -36,12 +36,12 @@ function App() {
           </div>)
         }
       } />
-      <Route path="/register" exact strict render={
+      <Route  basename={process.env.PUBLIC_URL} path="/register" exact strict render={
         () => {
           return (<Registration />)
         }
       } />
-      <Route path="/login" exact strict render={
+      <Route  basename={process.env.PUBLIC_URL} path="/login" exact strict render={
         () => {
           return (<Login/>)
         }
