@@ -6,7 +6,7 @@ import Login from './components/Login';
 import Custom from './components/BirdCustom';
 import Address from './components/Address';
 import Main from './mainComponents/Main';
-import { BrowserRouter as Router, Link} from 'react-router-dom';
+import { HashRouter as Router, Link} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import EmailConfirmation from './components/EmailConfirmation';
 import EmailVerified from './components/EmailVerified';
