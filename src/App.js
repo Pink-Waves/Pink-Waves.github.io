@@ -6,7 +6,7 @@ import Login from './components/Login';
 import Custom from './components/BirdCustom';
 import Address from './components/Address';
 import Main from './mainComponents/Main';
-import { HashRouter as Router, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Link} from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import EmailConfirmation from './components/EmailConfirmation';
 import EmailVerified from './components/EmailVerified';
@@ -22,26 +22,26 @@ function App() {
   return (
     <Router>
     <div className="App">
-     <Route path="/" exact render={
+     <Route  path='/' exact render={
         () => {
           return (
             <div>
           <Welcome />
-          <a href = '/register' >
+          <a href ='/register'>
           <button>Sign Up</button>
           </a>
-          <a href = '/login'>
+          <a href ='login'>
           <button>Login</button>
           </a>
           </div>)
         }
       } />
-      <Route path="/register" exact strict render={
+      <Route  path = '/register' exact strict render={
         () => {
           return (<Registration />)
         }
       } />
-      <Route path="/login" exact strict render={
+      <Route  path='/login' exact strict render={
         () => {
           return (<Login/>)
         }
