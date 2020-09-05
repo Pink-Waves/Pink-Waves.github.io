@@ -84,7 +84,6 @@ function Welcome(props){
 
         return (
             <div className="welcomebody">
-                <p>this is test 7</p>
                 <header className="header" id="myHeader">
                     <img src={logo}  alt="Fletter" style={logospecs}/>
                     <a href = "/register" className="hyperlink">
@@ -99,6 +98,7 @@ function Welcome(props){
                 <div className="split left" style={block1}>
                     <div className="centered">
                         <h1>Stay connected to those closest to you — old-school style.</h1>
+                        <p>this is test 7</p>
                     </div>
                 </div>
                 <div className="split right" style={block1}>
