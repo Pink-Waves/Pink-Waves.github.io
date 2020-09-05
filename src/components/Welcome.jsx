@@ -84,6 +84,7 @@ function Welcome(props){
 
         return (
             <div className="welcomebody">
+                <p>this is test 7</p>
                 <header className="header" id="myHeader">
                     <img src={logo}  alt="Fletter" style={logospecs}/>
                     <a href = "/register" className="hyperlink">
