@@ -27,12 +27,12 @@ function App() {
           return (
             <div>
           <Welcome />
-          <Link to = '/register' >
+          <a href = '/register' >
           <button>Sign Up</button>
-          </Link>
-          <Link to = '/login'>
+          </a>
+          <a href = '/login'>
           <button>Login</button>
-          </Link>
+          </a>
           </div>)
         }
       } />
