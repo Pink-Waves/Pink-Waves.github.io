@@ -98,7 +98,7 @@ function Welcome(props){
                 <div className="split left" style={block1}>
                     <div className="centered">
                         <h1>Stay connected to those closest to you — old-school style.</h1>
-                        <p>this is test 10</p>
+                        <p>this is test 11</p>
                     </div>
                 </div>
                 <div className="split right" style={block1}>
