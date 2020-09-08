@@ -14,6 +14,8 @@
 .resourcesbody {
     font-family: Abel;
     min-height: 100vh;
+    overflow-y: scroll;
+    height: 300px;
     background: linear-gradient(180deg, #97D4D7 0%, #AEDDDE 19.27%, #F0F9FA 60.94%, #FFFFE0 82.29%, #FCD3AE 100%);
 }
   
