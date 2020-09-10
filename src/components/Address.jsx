@@ -29,9 +29,9 @@ class Address extends Component{
             data => {
                 localStorage.setItem('address', data.address);
                 console.log(data);
+                window.location.reload();
             }
         ).catch(error => console.error(error))
-        window.location.reload(false);
     }
 
 
@@ -305,7 +305,10 @@ class Address extends Component{
                     <option value="WY">Wyoming (WY)</option>
                 </select>
 
-                <button className="nextbutton" onClick={this.confirm} style={{paddingTop: '25px', paddingLeft: '13px'}}> Next</button>
+                <a className="nextbutton" onClick={this.confirm} style={{paddingTop: '25px', paddingLeft: '13px'}}> 
+                     Next  
+                </a>
+
                          
             </div>
         );

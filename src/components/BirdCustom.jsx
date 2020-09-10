@@ -11,7 +11,11 @@ import Oops from './Oops';
 class BirdCustom extends Component{
     state = {
         color: 'yellow',
-        token: localStorage.getItem('token')
+        token: localStorage.getItem('token'),   
+        username: localStorage.getItem('username'),
+        bird_color: null,
+        address: null
+
     }
     confirm = () => {
         console.log(this.state);
@@ -26,8 +30,10 @@ class BirdCustom extends Component{
         }).then(data => data.json())
         .then(
             data => {
-                localStorage.setItem('bird_color', data.color);
+                this.state.bird_color= data.color;
+                this.state.address= data.address;
                 console.log(data);
+                window.location.reload();
             }
         ).catch(error => console.error(error))
         window.location.reload(false);

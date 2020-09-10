@@ -48,28 +48,49 @@ const useStyles = makeStyles(() => ({
 export default function MainMenu() {
   const [menuItemSelected, setMenuItemSelected] = useState(1);
   const [spinner, setSpinner] = useState(true);
-
+  const [mainData, setMainData] = useState([]);
   const classes = useStyles();
+  const token = localStorage.getItem('token');
 
   useEffect(() => {
     setTimeout(() => setSpinner(false), 1000);
   }, []);
 
-  if (
-    localStorage.getItem("token") == null ||
-    localStorage.getItem("token") === "undefined"
-  ) {
-    console.log("test");
-    return <Oops />;
-  }
+  useEffect(() =>
+  {
+    console.log(token);
+    fetch('http://127.0.0.1:8000/api/auth/customizeBird/'.concat(token), {
+        method: 'GET',
+        headers: {'Content-Type': 'application/json',
+        Authorization: `Token ${token}`
+        }
+      }).then(data => data.json())
+    .then(
+      data => {
+        setMainData(data);
+        console.log(data);
+    })
+    .catch(error => console.error(error))
+  },[]);
 
-  if (localStorage.getItem("bird_color") === "") {
-    return <BirdCustom />;
-  }
-
-  if (localStorage.getItem("address").trim() === ",") {
-    return <Address />;
-  }
+  if (mainData.color=="") { 
+    return (
+      <BirdCustom/>
+      );
+    }
+    if (mainData.address=="") { 
+      return (
+        <Address/>
+      );
+   }
+   
+   if (localStorage.getItem('token') == null || localStorage.getItem('token') == 'undefined') {
+    console.log('test');
+    return (    
+        <Oops/>
+      );
+    }
+  
 
   return spinner ? (
     <Loading />
