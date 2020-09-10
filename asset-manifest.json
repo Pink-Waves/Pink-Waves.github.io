@@ -1,29 +1,39 @@
 {
   "files": {
     "main.css": "/static/css/main.5e79df93.chunk.css",
-    "main.js": "/static/js/main.ef51091f.chunk.js",
-    "main.js.map": "/static/js/main.ef51091f.chunk.js.map",
+    "main.js": "/static/js/main.f88fd06e.chunk.js",
+    "main.js.map": "/static/js/main.f88fd06e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.86085978.js",
     "runtime-main.js.map": "/static/js/runtime-main.86085978.js.map",
-    "static/js/2.9c40114e.chunk.js": "/static/js/2.9c40114e.chunk.js",
-    "static/js/2.9c40114e.chunk.js.map": "/static/js/2.9c40114e.chunk.js.map",
+    "static/js/2.3657889e.chunk.js": "/static/js/2.3657889e.chunk.js",
+    "static/js/2.3657889e.chunk.js.map": "/static/js/2.3657889e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.caaf29fc3716e2f38460c93429d15032.js": "/precache-manifest.caaf29fc3716e2f38460c93429d15032.js",
+    "precache-manifest.0371dede224e4ddb7ee85fe08eb85d31.js": "/precache-manifest.0371dede224e4ddb7ee85fe08eb85d31.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.5e79df93.chunk.css.map": "/static/css/main.5e79df93.chunk.css.map",
-    "static/js/2.9c40114e.chunk.js.LICENSE.txt": "/static/js/2.9c40114e.chunk.js.LICENSE.txt",
+    "static/js/2.3657889e.chunk.js.LICENSE.txt": "/static/js/2.3657889e.chunk.js.LICENSE.txt",
     "static/media/Logo.png": "/static/media/Logo.7652e3a2.png",
     "static/media/birdPost2.png": "/static/media/birdPost2.ac4b1ebb.png",
+    "static/media/blue-hop.gif": "/static/media/blue-hop.236e18fc.gif",
+    "static/media/blue-walk.gif": "/static/media/blue-walk.7b148639.gif",
+    "static/media/brown-hop.gif": "/static/media/brown-hop.6365082c.gif",
+    "static/media/brown-walk.gif": "/static/media/brown-walk.0dafafc8.gif",
     "static/media/computerscreen.png": "/static/media/computerscreen.09c7b04c.png",
     "static/media/earth.png": "/static/media/earth.c1c52507.png",
+    "static/media/green-hop.gif": "/static/media/green-hop.6f909cbc.gif",
+    "static/media/green-walk.gif": "/static/media/green-walk.362e6d61.gif",
+    "static/media/pink-hop.gif": "/static/media/pink-hop.6cdd2614.gif",
+    "static/media/pink-walk1.gif": "/static/media/pink-walk1.c99b6901.gif",
     "static/media/postbirdie.png": "/static/media/postbirdie.1fdf5b40.png",
     "static/media/uparrow.png": "/static/media/uparrow.5a183c99.png",
-    "static/media/welcomegif.gif": "/static/media/welcomegif.44486b3e.gif"
+    "static/media/welcomegif.gif": "/static/media/welcomegif.44486b3e.gif",
+    "static/media/yellow-hop.gif": "/static/media/yellow-hop.1719dd7a.gif",
+    "static/media/yellow-walk1.gif": "/static/media/yellow-walk1.cf3e79f4.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.86085978.js",
-    "static/js/2.9c40114e.chunk.js",
+    "static/js/2.3657889e.chunk.js",
     "static/css/main.5e79df93.chunk.css",
-    "static/js/main.ef51091f.chunk.js"
+    "static/js/main.f88fd06e.chunk.js"
   ]
 }
