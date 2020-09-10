@@ -68,6 +68,7 @@ export default function MainMenu() {
     .then(
       data => {
         setMainData(data);
+        console.log(mainData);
         console.log(data);
     })
     .catch(error => console.error(error))
