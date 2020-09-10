@@ -278,16 +278,12 @@ export default function CustomizedMenus() {
               <ListItemIcon>
                 <HomeWorkIcon style={{ color: "white" }} fontSize="inherit" />
               </ListItemIcon>
-              <Typography>Address and Time Zone</Typography>
+              <Typography>Address</Typography>
             </AccordionSummary>
             <AccordionDetails>
               <Typography>
                 <Card className={classes2.settingsroot}>
                   <CardContent className={classes2.content}>
-                    <Typography variant="subtitle1" color="textPrimary">
-                      <ListItemIcon><AccessTimeIcon style={{ color: "black" }} fontSize="inherit" /></ListItemIcon>
-                        Pacific Standard Time (PST)
-                        </Typography>
                     <Typography variant="subtitle1" color="textPrimary">
                       <ListItemIcon><HomeIcon style={{ color: "black" }} fontSize="inherit" /></ListItemIcon>
                       {address}
